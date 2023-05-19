@@ -1,9 +1,12 @@
 //greet function
-function greet(firstName) {
+
+let firstName = 'CJ'
+
+function greet() {
     console.log('Hello There' + firstName)
 }
 
-greet('cj');
+greet();
 
 //multiply function
 function multiply(number, number) {
@@ -14,10 +17,10 @@ multiply();
 
 //tableOfFive function
 function tableOfFive(number) {
-    return number * number
-}
-tableOfFive(5);
-let number = tableOfFive(5);
-console.log(number);
+    return number * 5
+};
+
+console.log(2 * 5);
+
 
 
